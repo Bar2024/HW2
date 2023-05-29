@@ -32,8 +32,8 @@ public class Sum extends Function {
     }
 
     @Override
-    public double newtonRaphsonMethod(double a, double b) {
-        return function1.newtonRaphsonMethod(a, b) + function2.newtonRaphsonMethod(a, b);
+    public double newtonRaphsonMethod(double a, double epsilon) {
+        return function1.newtonRaphsonMethod(a, epsilon) + function2.newtonRaphsonMethod(a, epsilon);
     }
 
     @Override

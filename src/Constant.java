@@ -15,7 +15,7 @@ public final class Constant extends Function {
 
     @Override
     public String toString() {
-        return String.valueOf((a));
+        return "("+ String.valueOf((a)) +")";
     }
 
     /**
@@ -36,7 +36,7 @@ public final class Constant extends Function {
     }
 
     @Override
-    public double newtonRaphsonMethod(double num_1, double num_2) { return a; }
+    public double newtonRaphsonMethod(double num_1, double epsilon) { return a; }
 
     @Override
     public String taylorPolynomial(int n) {

@@ -32,7 +32,7 @@ public class Quotient extends Function {
     public double bisectionMethod(double a, double b, double epsilon) { return 0; }
 
     @Override
-    public double newtonRaphsonMethod(double a, double b) {
+    public double newtonRaphsonMethod(double a, double epsilon) {
         return 0;
     }
 

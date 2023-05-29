@@ -8,7 +8,7 @@ public abstract class Function {
 
     public abstract double bisectionMethod(double a, double b, double epsilon);
 
-    public abstract double newtonRaphsonMethod(double a, double b);
+    public abstract double newtonRaphsonMethod(double a, double epsilon);
 
     public abstract double newtonRaphsonMethod(double a);
 

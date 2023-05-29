@@ -25,8 +25,8 @@ public class Negation extends Function{
     }
 
     @Override
-    public double newtonRaphsonMethod(double a, double b) {
-        return -function.newtonRaphsonMethod(a, b);
+    public double newtonRaphsonMethod(double a, double epsilon) {
+        return -function.newtonRaphsonMethod(a, epsilon);
     }
 
     @Override

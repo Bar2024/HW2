@@ -42,10 +42,10 @@ public class MultiSum extends Function {
     }
 
     @Override
-    public double newtonRaphsonMethod(double a, double b) {
+    public double newtonRaphsonMethod(double a, double epsilon) {
         double sum = 0.0;
         for (Function function : functions) {
-            sum += function.newtonRaphsonMethod(a, b);
+            sum += function.newtonRaphsonMethod(a, epsilon);
         }
         return sum;
     }
